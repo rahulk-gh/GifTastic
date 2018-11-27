@@ -1,6 +1,6 @@
 body {
   font: 18px arial, sans-serif;
-  background: #eee;
+  background: rgb(214, 218, 30);
 }
 
 #animals {
@@ -38,7 +38,7 @@ input[type="submit"] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #659a98;
+  background: #22ad39;
   border: 0;
   border-radius: 5px;
   box-shadow: 2px 2px 3px #bbb;

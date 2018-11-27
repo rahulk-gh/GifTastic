@@ -17,7 +17,7 @@ $(document).ready(function(){
             $(areaToAddTo).append(x);
         }
     }
-
+        //button to generate API call and  functionality to make button active   
     $(document).on("click",".animal-button", function(){
         $("#animals").empty();
         $(".animal-button").removeClass("active");
@@ -57,6 +57,7 @@ $(document).ready(function(){
             }
           });
     });
+    //animate function
     $(document).on("click", ".animal-image", function() {
 
         var state = $(this).attr("data-state");
